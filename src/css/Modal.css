@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.modal-overlay {
+  font-family: "Roboto", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+   gap: 20px;
+  }
+  
+  .input-label {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 8px;
+    display: block;
+    font-weight: 500;
+    
+  }
+  
+  .group-name-input {
+    width: 65%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .color-options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  
+  .color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .color-circle.selected {
+    border: 2px solid #000000; 
+  }
+  
+  .create-button {
+    padding: 10px 35px;
+    font-size: 16px;
+    color: white;
+    background-color: #0d47a1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right; 
+  }
+  
+  .create-button:hover {
+    background-color: #0b3c8c;
+  }
+  
+  .create-button:focus {
+    outline: none; 
+    border: none; 
+  }
+  

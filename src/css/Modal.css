@@ -93,3 +93,15 @@
     border: none; 
   }
   
+  @media(max-width:480px){
+    .modal-content {
+       width: 400px;
+      }
+      .color-options {
+        gap: 8px;
+       
+      }
+      .input-group {
+       gap: 10px;
+      }
+  }
